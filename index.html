@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Houssam Habboub</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- ================  NAVBAR  ======================= -->
+    <nav class="navbar">
+        <div class="logo">Houssam H.</div>
+        <div class="list-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="mobile-nav">
+        <div class="logo">Houssam H.</div>
+        <div class="mobile-menu">
+            <div class="mobile-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ================  ABOUT SECTION  ====================== -->
+    <div class="about" id="about">
+        <div class="about-info">
+            <p class="name">Hello, I'm <br>Houssam Habboub</p>
+            <h1>Frontend Developer</h1>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/houssam-habboub/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/habboubuu" target="_blank"><i class="ri-github-fill"></i></a>
+            </div>
+            <p class="summary-portfolio">
+                I am an aspiring Frontend Developer currently pursuing my studies at
+                the Specialized Institute Of Applied Technology NTIC
+                With a solid foundation in <mark>HTML, Css, JavaScript, React, and tailwind</mark>,
+                I am passionate about creating visually appealing and highly functional
+                web applications. I am eager to apply my skills in a collaborative environment
+                and continuously learn new technologies.
+            </p>
+            <div class="resume">
+                <a href="./assets/Resume.pdf" download>Resume</a>
+            </div>
+        </div>
+        <div class="img-portfolio">
+            <img src="./assets/ph.png" alt="img" />
+        </div>
+    </div>
+    <!-- ================  PROJECTS SECTION  ====================== -->
+    <div class="projects" id="projects">
+        <p>Browse My Recent</p>
+        <h1>Projects</h1>
+        <div class="my-project">
+            <div class="project-image">
+                <img src="./assets/bakhu-project.jpg" alt="project-image"/>
+            </div>
+            <div class="project-details">
+                <h2>Bakhu Ecommerce </h2>
+                <p>
+                    An integrated e-commerce store developed using React, connected to an external API for product data.
+                    The store features a smooth user interface and a <span>dashboard</span> for managing products.
+                </p>
+                <p>Frontend: Reactjs,  Css,  axios (for API handling)</p>
+                <p>Deployment: Hosted on Netlify for seamless deployment and scaling</p>
+                <ul>
+                    <li>Designed an attractive and user-friendly interface.</li>
+                    <li>Built a responsive e-commerce store</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/habboubuu/bakhuecom" target="_blank">Github</a>
+                    <a href="https://bakhuu.netlify.app" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!---->
+        <div class="my-project" style="margin-top: 3rem;">
+            <div class="project-image">
+                <img src="./assets/rentalcars.png" alt="project-image"/>
+            </div>
+            <div class="project-details">
+                <h2>Rental Cars </h2>
+                <p>
+                    Rentacars is a web application designed for car rental services, offering users an intuitive interface to browse,
+                    select, and rent vehicles. The platform features a dynamic and responsive design, ensuring a seamless experience
+                    across various devices
+                </p>
+                <p>Frontend: Reactjs,  Css</p>
+                <p>Deployment: Hosted on Netlify for seamless deployment and scaling</p>
+                <ul>
+                    <li>Vehicle Listings,  Search and Filter,  User Interface,  Responsive Design</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/habboubuu/rental-cars" target="_blank">Github</a>
+                    <a href="https://renta1cars.netlify.app" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+
+        <div class="my-project" style="margin-top: 3rem;">
+            <div class="project-image">
+                <img src="./assets/azed-project.png" alt="project-image"/>
+            </div>
+            <div class="project-details">
+                <h2>Landing Page for IT Company</h2>
+                <p>
+                    A responsive landing page was designed and developed using HTML, CSS, and JavaScript for Azed,
+                    an IT company. The page aims to enhance the company's digital presence and capture visitors'
+                    attention through a modern and sleek design, with a focus on user experience
+                </p>
+                <p>Frontend: Html,  Css, Javascript</p>
+                <p>Deployment: Github Pages</p>
+                <ul>
+                    <li>Responsive Design</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/habboubuu/azedx" target="_blank">Github</a>
+                    <a href="https://habboubuu.github.io/azedx" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================  SKILLS SECTION  ====================== -->
+    <div class="skills">
+        <p>Explore My</p>
+        <h1>My Skills</h1>
+        <div class="skills-stack">
+            <span><i class="ri-verified-badge-line"></i> HTML</span>
+            <span><i class="ri-verified-badge-line"></i> CSS</span>
+            <span><i class="ri-verified-badge-line"></i> JavaScript</span>
+            <span><i class="ri-verified-badge-line"></i> Reactjs</span>
+            <span><i class="ri-verified-badge-line"></i> Tailwind CSS</span>
+        </div>
+    </div>
+    <!-- ================  CONTACT SECTION  ====================== -->
+    <div class="contact" id="contact">
+        <p>Get in Touch</p>
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <span><i class="ri-mail-line"></i> <a href="mailto:houssamhabboub2000@gmail.com" target="_blank">houssamhabboub2000@gmail.com</a></span>
+            <span><i class="ri-phone-line"></i> <a href="tel:+212623441536" target="_blank">Phone</a></span>
+            <span><i class="ri-linkedin-line"></i> <a href="https://www.linkedin.com/in/houssam-habboub" target="_blank">LinkedIn</a></span>
+        </div>
+    </div>
+    <!-- ================  FOOTER  ====================== -->
+    <footer>
+        <p>Copyright © 2024 <a href="https://www.linkedin.com/in/houssam-habboub" target="_blank">Houssam Habboub</a>. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
